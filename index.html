@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@2.0.9/dist/full.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style type="text/css">
+      * {
+        font-family: "Roboto", sans-serif;
+      }
+      .scrollbar-hide::-webkit-scrollbar {
+        display: none;
+      }
+    </style>
+    <title>instagram reimagined.</title>
+  </head>
+  <body>
+    <div class="flex h-screen">
+      <div class="flex m-auto text-left">
+        <div class="max-w-[400px] my-auto">
+          <div class="text-7xl mb-12 font-bold leading-normal">
+            <p>TailwindCSS & daisyUI</p>
+            <img class="p-2 w-84" src="./assets/logo.png" />
+            <p class="leading-none">style reimagined.</p>
+          </div>
+        </div>
+        <div class="divider divider-horizontal"></div>
+        <div class="mockup-phone shadow shadow-black shadow-xl ml-10">
+          <div class="camera"></div>
+          <div class="display">
+            <div class="w-[320px] max-h-[650px] bg-neutral pt-7">
+              <div class="flex flex-row justify-between px-4 py-2">
+                <div
+                  class="flex justify-center items-center text-center w-10 h-10"
+                >
+                  <i class="fi fi-rr-camera text-2xl"></i>
+                </div>
+                <div class="flex justify-center items-center h-10">
+                  <img class="object-cover h-9" src="./assets/logo.png" />
+                </div>
+
+                <div class="avatar relative inline-block">
+                  <div class="w-10 h-10 rounded-full">
+                    <img src="https://api.lorem.space/image/face?hash=28212" />
+                    <span
+                      class="absolute top-0 right-0 inline-flex items-center justify-center px-2 py-1 text-xs font-bold leading-none text-red-100 transform translate-x-1/2 -translate-y-1/2 bg-red-600 rounded-full"
+                      >6</span
+                    >
+                  </div>
+                </div>
+              </div>
+              <div
+                class="flex-auto space-y-3 px-2 overflow-auto pb-6 max-h-[500px] scrollbar-hide"
+              >
+                <div
+                  class="space-x-3 overflow-visible flex flex-row px-3 pt-4 overflow-x-scroll scrollbar-hide"
+                >
+                  <div class="text-white text-center text-xs">
+                    <div class="avatar">
+                      <div
+                        class="w-14 rounded-full ring-2 ring-red-500 ring-offset-2 ring-offset-white"
+                      >
+                        <img
+                          src="https://api.lorem.space/image/face?hash=28212"
+                        />
+                      </div>
+                    </div>
+                    <p class="pt-1">Your Story</p>
+                  </div>
+                  <div class="text-white text-center text-xs">
+                    <div class="avatar">
+                      <div
+                        class="w-14 rounded-full ring-2 ring-red-500 ring-offset-2 ring-offset-white"
+                      >
+                        <img
+                          src="https://api.lorem.space/image/face?hash=28219"
+                        />
+                      </div>
+                    </div>
+                    <p class="pt-1">username</p>
+                  </div>
+                  <div class="text-white text-center text-xs">
+                    <div class="avatar">
+                      <div
+                        class="w-14 rounded-full ring-2 ring-red-500 ring-offset-2 ring-offset-white"
+                      >
+                        <img
+                          src="https://api.lorem.space/image/face?hash=28213"
+                        />
+                      </div>
+                    </div>
+                    <p class="pt-1">username</p>
+                  </div>
+                  <div class="text-white text-center text-xs">
+                    <div class="avatar">
+                      <div
+                        class="w-14 rounded-full ring-2 ring-red-500 ring-offset-2 ring-offset-white"
+                      >
+                        <img
+                          src="https://api.lorem.space/image/face?hash=28214"
+                        />
+                      </div>
+                    </div>
+                    <p class="pt-1">username</p>
+                  </div>
+                  <div class="text-white text-center text-xs">
+                    <div class="avatar">
+                      <div
+                        class="w-14 rounded-full ring-2 ring-red-500 ring-offset-2 ring-offset-white"
+                      >
+                        <img
+                          src="https://api.lorem.space/image/face?hash=28215"
+                        />
+                      </div>
+                    </div>
+                    <p class="pt-1">username</p>
+                  </div>
+                  <div class="text-white text-center text-xs">
+                    <div class="avatar">
+                      <div
+                        class="w-14 rounded-full ring-2 ring-gray-500 ring-offset-2 ring-offset-white"
+                      >
+                        <img
+                          src="https://api.lorem.space/image/face?hash=28222"
+                        />
+                      </div>
+                    </div>
+                    <p class="pt-1">username</p>
+                  </div>
+                  <div class="text-white text-center text-xs">
+                    <div class="avatar">
+                      <div
+                        class="w-14 rounded-full ring-2 ring-gray-500 ring-offset-2 ring-offset-white"
+                      >
+                        <img
+                          src="https://api.lorem.space/image/face?hash=28223"
+                        />
+                      </div>
+                    </div>
+                    <p class="pt-1">username</p>
+                  </div>
+                  <div class="text-white text-center text-xs">
+                    <div class="avatar">
+                      <div
+                        class="w-14 rounded-full ring-2 ring-gray-500 ring-offset-2 ring-offset-white"
+                      >
+                        <img
+                          src="https://api.lorem.space/image/face?hash=28224"
+                        />
+                      </div>
+                    </div>
+                    <p class="pt-1">username</p>
+                  </div>
+                  <div class="text-white text-center text-xs">
+                    <div class="avatar">
+                      <div
+                        class="w-14 rounded-full ring-2 ring-gray-500 ring-offset-2 ring-offset-white"
+                      >
+                        <img
+                          src="https://api.lorem.space/image/face?hash=28225"
+                        />
+                      </div>
+                    </div>
+                    <p class="pt-1">username</p>
+                  </div>
+                </div>
+                <div
+                  class="card min-h-48 w-full bg-base-100 shadow-neutral-100 shadow-sm"
+                >
+                  <div class="card-body p-2">
+                    <div class="flex justify-between">
+                      <div class="flex flex-row items-center">
+                        <div class="avatar">
+                          <div class="w-8 rounded-full">
+                            <img
+                              src="https://api.lorem.space/image/face?hash=26998"
+                            />
+                          </div>
+                        </div>
+                        <span class="font-medium pl-2">username</span>
+                      </div>
+                      <div class="flex items-center">
+                        <i class="fi fi-rr-menu-dots-vertical"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <figure>
+                    <img
+                      class="object-cover h-[200px] w-[400px]"
+                      src="https://api.lorem.space/image/drink?hash=26998"
+                      alt="post"
+                    />
+                  </figure>
+                  <div class="card-body p-2">
+                    <div class="flex justify-between">
+                      <div class="flex flex-row px-1 space-x-2">
+                        <i class="fi fi-rr-heart"></i>
+                        <i class="fi fi-rr-comment"></i>
+                        <i class="fi fi-rr-paper-plane"></i>
+                      </div>
+                      <div><i class="fi fi-rr-bookmark"></i></div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="card w-full bg-base-100 shadow-neutral-100 shadow-sm"
+                >
+                  <div class="card-body p-2">
+                    <div class="flex justify-between">
+                      <div class="flex flex-row items-center">
+                        <div class="avatar">
+                          <div
+                            class="w-8 rounded-full ring-2 ring-red-500 ring-offset-2 ring-offset-white"
+                          >
+                            <img
+                              src="https://api.lorem.space/image/face?hash=28212"
+                            />
+                          </div>
+                        </div>
+                        <span class="font-medium pl-2">username</span>
+                      </div>
+                      <div class="flex items-center">
+                        <i class="fi fi-rr-menu-dots-vertical"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <figure>
+                    <img
+                      class="object-cover h-[200px] w-[400px]"
+                      src="https://api.lorem.space/image/fashion?hash=123"
+                      alt="post"
+                    />
+                  </figure>
+                  <div class="card-body p-2">
+                    <div class="flex justify-between">
+                      <div class="flex flex-row px-1 space-x-2">
+                        <i class="fi fi-rr-heart"></i>
+                        <i class="fi fi-rr-comment"></i>
+                        <i class="fi fi-rr-paper-plane"></i>
+                      </div>
+                      <div><i class="fi fi-rr-bookmark"></i></div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="card w-full bg-base-100 shadow-neutral-100 shadow-sm"
+                >
+                  <div class="card-body p-2">
+                    <div class="flex justify-between">
+                      <div class="flex flex-row items-center">
+                        <div class="avatar">
+                          <div
+                            class="w-8 rounded-full ring-2 ring-red-500 ring-offset-2 ring-offset-white"
+                          >
+                            <img
+                              src="https://api.lorem.space/image/face?hash=28213"
+                            />
+                          </div>
+                        </div>
+                        <span class="font-medium pl-2">username</span>
+                      </div>
+                      <div class="flex items-center">
+                        <i class="fi fi-rr-menu-dots-vertical"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <figure>
+                    <img
+                      class="object-cover h-[200px] w-[400px]"
+                      src="https://api.lorem.space/image/burger?hash=28213"
+                      alt="post"
+                    />
+                  </figure>
+                  <div class="card-body p-2">
+                    <div class="flex justify-between">
+                      <div class="flex flex-row px-1 space-x-2">
+                        <i class="fi fi-rr-heart"></i>
+                        <i class="fi fi-rr-comment"></i>
+                        <i class="fi fi-rr-paper-plane"></i>
+                      </div>
+                      <div><i class="fi fi-rr-bookmark"></i></div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="card w-full bg-base-100 shadow-neutral-100 shadow-sm"
+                >
+                  <div class="card-body p-2">
+                    <div class="flex justify-between">
+                      <div class="flex flex-row items-center">
+                        <div class="avatar">
+                          <div
+                            class="w-8 rounded-full ring-2 ring-gray-500 ring-offset-2 ring-offset-white"
+                          >
+                            <img
+                              src="https://api.lorem.space/image/face?hash=28224"
+                            />
+                          </div>
+                        </div>
+                        <span class="font-medium pl-2">username</span>
+                      </div>
+                      <div class="flex items-center">
+                        <i class="fi fi-rr-menu-dots-vertical"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <figure>
+                    <img
+                      class="object-cover h-[200px] w-[400px]"
+                      src="https://api.lorem.space/image/fashion?hash=28224"
+                      alt="post"
+                    />
+                  </figure>
+                  <div class="card-body p-2">
+                    <div class="flex justify-between">
+                      <div class="flex flex-row px-1 space-x-2">
+                        <i class="fi fi-rr-heart"></i>
+                        <i class="fi fi-rr-comment"></i>
+                        <i class="fi fi-rr-paper-plane"></i>
+                      </div>
+                      <div><i class="fi fi-rr-bookmark"></i></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
