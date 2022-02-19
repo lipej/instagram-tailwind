@@ -32,16 +32,19 @@
   </head>
   <body>
     <div class="flex flex-col h-screen">
-      <div class="flex m-auto text-left">
-        <div class="max-w-[400px] my-auto">
-          <div class="text-7xl mb-12 font-bold leading-normal">
+      <div class="flex flex-col md:flex-row m-auto md:text-left">
+        <div class="max-w-full md:max-w-[400px] my-auto mx-2 md:mx-0">
+          <div class="text-5xl md:text-7xl md:mb-12 font-bold leading-normal">
             <p><span class="text-sky-600">TailwindCSS</span> & daisyUI</p>
             <img class="p-2 w-84" src="./assets/logo.png" />
             <p>style reimagined.</p>
           </div>
         </div>
         <div class="divider divider-horizontal"></div>
-        <div class="mockup-phone shadow shadow-black shadow-xl ml-10">
+        <div class="divider divider-vertical md:hidden"></div>
+        <div
+          class="mockup-phone shadow shadow-black shadow-xl md:ml-10 mb-10 md:mb-0"
+        >
           <div class="camera"></div>
           <div class="display">
             <div class="w-[300px] max-h-[650px] bg-neutral pt-7">
@@ -343,7 +346,9 @@
           </div>
         </div>
       </div>
-      <div class="absolute right-0 bottom-0 m-4">
+      <div
+        class="md:absolute md:right-0 md:bottom-0 md:m-4 m-auto pb-6 md:pb-0"
+      >
         <a href="http://github.com/lipejose"
           ><svg
             xmlns="http://www.w3.org/2000/svg"
